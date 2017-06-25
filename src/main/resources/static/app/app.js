@@ -1,5 +1,5 @@
-// Creating angular Application with module name "GoogleOAuthDemoApp"
-var app = angular.module('GoogleOAuthDemoApp', []);
+// Creating angular Application with module name "faos7"
+var app = angular.module('faos7', []);
 
 app.config([ '$httpProvider', function($httpProvider) {
     $httpProvider.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
